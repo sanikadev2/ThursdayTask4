@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page2">
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <StackLayout BackgroundColor="#00cc99" >
+                <Image Source="logo" Margin="30"></Image>
+                <Label Text="SPLITWISE" HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="White"></Label>
+
+                <Path Stroke="Black">
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathGeometry.Figures>
+                                <PathFigureCollection>
+                                    <PathFigure StartPoint="10,10" >
+                                        <PathFigure.Segments>
+                                            <PathSegmentCollection>
+                                                <QuadraticBezierSegment Point1="200,300"
+                                                        Point2="400,10"
+                                                                    />
+                                            </PathSegmentCollection>
+                                        </PathFigure.Segments>
+                                    </PathFigure>
+                                </PathFigureCollection>
+                            </PathGeometry.Figures>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <StackLayout>
+
+                    <Button Text="LOGIN" TextColor="White" BackgroundColor="Gray" CornerRadius="10" WidthRequest="270" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked" >
+
+                    </Button>
+
+                    <Button Text="SIGN UP" TextColor="White" BackgroundColor="#00cc99" CornerRadius="10" WidthRequest="270" HorizontalOptions="Center" Clicked="Button_Clicked_1">
+
+                    </Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"  Spacing="30" HorizontalOptions="CenterAndExpand">
+                    <Button ImageSource="google" CornerRadius="10" HorizontalOptions="Center" WidthRequest="100"></Button>
+                    <Button ImageSource="facebook" CornerRadius="10" HorizontalOptions="Center" WidthRequest="100"></Button>
+                </StackLayout>
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

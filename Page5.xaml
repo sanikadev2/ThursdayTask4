@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page5">
+    <ContentPage.Content>
+        <StackLayout >
+            <StackLayout Orientation="Horizontal" Spacing="30" Margin="10">
+                <Button ImageSource="Leftarrow" BackgroundColor="White"/>
+                <Label Text="Settle Up" TextColor="#00cc99" FontSize="30"/>
+            </StackLayout>
+            <Label Text="Who do you want to settle up with?" HorizontalOptions="CenterAndExpand" FontSize="Medium" TextColor="Black" 
+               ></Label>
+            <Frame BorderColor="White" HeightRequest="80" WidthRequest="10" Margin="10" CornerRadius="15" HasShadow="True">
+                <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                    <StackLayout>
+                        <Frame WidthRequest="50" HeightRequest="50" CornerRadius="40" BackgroundColor="Gray" HorizontalOptions="Center">
+                            <Label Text="S" TextColor="#E70202" HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" />
+                        </Frame>
+                    
+        </StackLayout>
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Subodh Kohle"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        <Label Text="subodhkohle@gmail.com"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold"/>
+                        
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="EndAndExpand" Padding="10,0,0,0">
+                  
+                        <Label Text="You owe"  HorizontalOptions="EndAndExpand"  FontAttributes="Bold" TextColor="Red"/>
+                        <Label Text="500"  HorizontalOptions="EndAndExpand"  FontAttributes="Bold" TextColor="Red"/>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="White" HeightRequest="80" WidthRequest="10" Margin="10" CornerRadius="15" HasShadow="True">
+                <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                    <StackLayout>
+                        <Frame WidthRequest="50" HeightRequest="50" CornerRadius="40" BackgroundColor="Gray" HorizontalOptions="Center">
+                            <Label Text="S" TextColor="#17BAED" HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" />
+                        </Frame>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Sushil Kumar"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        <Label Text="sushilkumar@gmail.com"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold"/>
+
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="EndAndExpand" Padding="10,0,0,0">
+
+                        <Label Text="You owe"  HorizontalOptions="EndAndExpand"  FontAttributes="Bold" TextColor="Red"/>
+                        <Label Text="500"  HorizontalOptions="EndAndExpand"  FontAttributes="Bold" TextColor="Red"/>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame BorderColor="White" HeightRequest="80" WidthRequest="10" Margin="10" CornerRadius="15" HasShadow="True">
+                <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                    <StackLayout>
+                        <Frame WidthRequest="50" HeightRequest="50" CornerRadius="40" BackgroundColor="Gray" HorizontalOptions="Center">
+                            <Label Text="S" TextColor="#4CBB9B" HorizontalOptions="Center"  VerticalOptions="Center" FontSize="35"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Shubham Gupta"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        <Label Text="shubhamgupta@gmail.com"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold"/>
+
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="EndAndExpand" Padding="10,0,0,0">
+
+                        <Label Text="You owe"  HorizontalOptions="EndAndExpand"  FontAttributes="Bold" TextColor="Green
+                               "/>
+                        <Label Text="500"  HorizontalOptions="EndAndExpand"  FontAttributes="Bold" TextColor="Green"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

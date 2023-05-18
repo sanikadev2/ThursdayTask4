@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page9"  BackgroundColor="#4CBB9B">
+    <ContentPage.Content>
+        <Frame BackgroundColor="#00cc99" CornerRadius="50" Margin="-50,-25,0,-25" Padding="20,20,0,50">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="30" Margin="10">
+                    <Button ImageSource="Leftarrow" BackgroundColor="White"/>
+                    <Label Text="SPLITWISE" TextColor="Black" FontSize="30"/>
+                </StackLayout>
+                <Frame WidthRequest="50" HeightRequest="50" CornerRadius="40" BackgroundColor="White" HorizontalOptions="Center">
+                    <Label Text="s" TextColor="#E60202" HorizontalOptions="Center"  VerticalOptions="Center" FontSize="40" />
+                </Frame>
+                <StackLayout Orientation="Horizontal" Spacing="100" Margin="20">
+                    <StackLayout>
+                        <Label Text="Subodh kolhe"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+                        <Label Text=" You owe"></Label>
+                    </StackLayout>
+                    <Label Text="500" HorizontalOptions="CenterAndExpand"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"  Spacing="30" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Settle Up" CornerRadius="10" HorizontalOptions="Center" WidthRequest="100"></Button>
+                    <Button Text="Send Reminder" CornerRadius="10"  WidthRequest="140"></Button>
+                </StackLayout>
+
+                <ScrollView Orientation="Vertical">
+                    <StackLayout>
+                        <Frame BorderColor="White" HeightRequest="60" WidthRequest="10" Margin="10" CornerRadius="5" HasShadow="True">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="bike"></Image>
+                                    <Label Text="November 3,2019" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Car" FontAttributes="Bold"></Label>
+                                    <Label Text="You Owe" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="Added by Subodh Kolhe"></Label>
+                                    <Label Text="500" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="60" WidthRequest="10" Margin="10" CornerRadius="5" HasShadow="True">
+                            <StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="img34"></Image>
+                                    <Label Text="November 3,2019" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Car" FontAttributes="Bold"></Label>
+                                    <Label Text="You Owe" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="Added by Subodh Kolhe"></Label>
+                                    <Label Text="500" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="60" WidthRequest="10" Margin="10" CornerRadius="5" HasShadow="True">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="img33"></Image>
+                                    <Label Text="November 3,2019" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Car" FontAttributes="Bold"></Label>
+                                    <Label Text="You Owe" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="Added by Subodh Kolhe"></Label>
+                                    <Label Text="500" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="60" WidthRequest="10" Margin="10" CornerRadius="5" HasShadow="True">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="img33"></Image>
+                                    <Label Text="November 3,2019" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Car" FontAttributes="Bold"></Label>
+                                    <Label Text="You Owe" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="Added by Subodh Kolhe"></Label>
+                                    <Label Text="500" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+                </ScrollView>
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

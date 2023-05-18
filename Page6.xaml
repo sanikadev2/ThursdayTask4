@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page6">
+    <ContentPage.Content>
+        <StackLayout Spacing="100">
+            <StackLayout Orientation="Horizontal" Spacing="30" Margin="10">
+                <Button ImageSource="Leftarrow" BackgroundColor="White"/>
+                <Label Text="Settle Up" TextColor="#00cc99" FontSize="30"/>
+            </StackLayout>
+
+            <StackLayout Spacing="40" HorizontalOptions="CenterAndExpand">
+                <Image Source="tick" HeightRequest="100" WidthRequest="100" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Hurray!! " HorizontalOptions="Center" FontAttributes="Bold" FontSize="20"/>
+                <Label HorizontalOptions="CenterAndExpand" Padding="20" VerticalOptions="CenterAndExpand" Margin="20">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Your account with " FontSize="Medium" />
+                            <Span Text="Subodh Kolhe " FontAttributes="Bold" FontSize="Medium"/>
+                            <Span Text="has been settled up." FontSize="Medium"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Button Text="Done" BackgroundColor="#00cc99" Margin="30"/>
+            </StackLayout>
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

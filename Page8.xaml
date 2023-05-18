@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page8">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="30" Margin="10">
+                <Button ImageSource="Leftarrow" BackgroundColor="White"/>
+                <Label Text="Settle Up" TextColor="#00cc99" FontSize="30"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label Text="You Owe Subodh Kolhe" TextColor="Black"></Label>
+                <Label Text="500" TextColor="Red"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Frame WidthRequest="50" HeightRequest="50" CornerRadius="40" BackgroundColor="Gray" HorizontalOptions="Center">
+                    <Label Text="M" TextColor="#4CBB9B" HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" />
+                </Frame>
+                <Image Source="arrow"></Image>
+                <Frame WidthRequest="50" HeightRequest="50" CornerRadius="40" BackgroundColor="Gray" HorizontalOptions="Center">
+                    <Label Text="S" TextColor="Red" HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" />
+                </Frame>
+            </StackLayout>
+            <StackLayout>
+                <Frame BorderColor="White" HeightRequest="50" WidthRequest="10" Margin="10"  HasShadow="True">
+                    <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                        <StackLayout>
+                            <RadioButton IsChecked="False" HeightRequest="50"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                            <Image Source="paytm" 
+                           HorizontalOptions="Start"/>
+                            <Label Text="Pay Via PayTM"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="White" HeightRequest="50" WidthRequest="10" Margin="10"  HasShadow="True">
+                    <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                        <StackLayout>
+                            <RadioButton IsChecked="False" HeightRequest="50"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                            <Image Source="GPay" 
+                           HorizontalOptions="Start"/>
+                            <Label Text="Pay Via Google Pay"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="White" HeightRequest="50" WidthRequest="10" Margin="10"  HasShadow="True">
+                    <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                        <StackLayout>
+                            <RadioButton IsChecked="False" HeightRequest="50"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                            <Image Source="credit" 
+                           HorizontalOptions="Start"/>
+                            <Label Text="Pay Via Debit/Credit Card"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="White" HeightRequest="50" WidthRequest="10" Margin="10"  HasShadow="True">
+                    <StackLayout  Orientation="Horizontal" Spacing="15" HorizontalOptions="StartAndExpand">
+                        <StackLayout>
+                            <RadioButton IsChecked="False" HeightRequest="50"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                            <Image Source="credit" 
+                           HorizontalOptions="Start"/>
+                            <Label Text="Record Other Payment Method"
+                           HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" />
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <Button Text="Settle Up" BackgroundColor="White" Margin="30" TextColor="Black"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo" Margin="30"></Image>
+            <Label Text="SPLITWISE" HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="#00cc99"></Label>
+           
+            <Label Text="Split bills the easy way"
+                   FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page3"  >
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="#00cc99">
+                
+            <Button ImageSource="icon" HorizontalOptions="Start" BackgroundColor="Transparent"></Button>
+            <Label Text="SPLITWISE"
+                   TextColor="White"
+                   FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="LOGIN" TextColor="White" HorizontalOptions="Start" FontSize="30"></Label>
+                <Label Text="SIGN UP" TextColor="White" HorizontalOptions="EndAndExpand" FontSize="30"></Label>
+            </StackLayout>
+            <Frame BorderColor="DeepSkyBlue" HeightRequest="190" WidthRequest="10" Margin="10" CornerRadius="10" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <StackLayout>
+                    
+                    <Label Text="Email Address"></Label>
+                    <Frame BackgroundColor="Gray" HeightRequest="20">
+                        <Entry ></Entry>
+                    </Frame>
+                    
+                    <Label Text="Password"></Label>
+                    <Frame BackgroundColor="Gray" HeightRequest="20">
+                        <Entry ></Entry>
+                    </Frame>
+                    <Label Text="Forget your password?" HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+               
+                </Frame>
+            <StackLayout Orientation="Horizontal" Spacing="30" HorizontalOptions="CenterAndExpand">
+                <Button ImageSource="google" CornerRadius="10" HorizontalOptions="Center" WidthRequest="100"></Button>
+                <Button ImageSource="facebook" CornerRadius="10" HorizontalOptions="Center" WidthRequest="100"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content> 
+</ContentPage>

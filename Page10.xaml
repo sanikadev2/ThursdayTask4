@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Page10">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Spacing="30" Margin="10">
+                <StackLayout Orientation="Horizontal" Spacing="30" Margin="10">
+                    <Button ImageSource="Leftarrow" BackgroundColor="White" WidthRequest="60"/>
+                    <Label Text="Add Expense" TextColor="#00cc99" FontSize="20" Padding="10"/>
+                    <Button Text="save" FontSize="Small" HorizontalOptions="EndAndExpand" BackgroundColor="White" TextColor="#00cc99" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                    <Label Text="With You And "/>
+                    <Entry Placeholder="" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HeightRequest="100">
+                    <Frame HeightRequest="40" WidthRequest="50"></Frame>
+                    <StackLayout Orientation="Vertical" HeightRequest="100" WidthRequest="250">
+                        <Frame>
+                            <Entry Placeholder="Name of the Expenses" HorizontalOptions="StartAndExpand"/>
+                        </Frame>
+                        <Frame>
+                            <Entry Placeholder="Today" HorizontalOptions="StartAndExpand"/>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="40" Spacing="20">
+                    <Image Source=""/>
+                    <Entry Placeholder="0.00" HorizontalOptions="StartAndExpand" WidthRequest="100"/>
+
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" >
+                    <Label Text="Paid by " FontSize="Medium"/>
+                    <Button Text="You" TextColor="gray" BackgroundColor="white"/>
+                    <Label Text="and Split" FontSize="Medium"/>
+                    <Button Text="Equally" TextColor="gray" BackgroundColor="white"/>
+                </StackLayout>
+                <StackLayout Spacing="40" HorizontalOptions="CenterAndExpand" Padding="50">
+
+                    <Button Text="Done" BackgroundColor="#00cc99" Margin="30"/>
+
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
